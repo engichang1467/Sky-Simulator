@@ -12,7 +12,7 @@ void printv(va_list args, const char* format)
     glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18,*ch++);
 }
 
-// 
+// Prints the words on screen
 void print(const char* format, ...)
 {
   va_list args;
@@ -21,7 +21,7 @@ void print(const char* format, ...)
   va_end(args);
 }
 
-//
+// Prints the words at a given X-Y location on screen
 void printAt(int x, int y, const char* format, ...)
 {
   va_list args;

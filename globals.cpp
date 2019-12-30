@@ -1,15 +1,15 @@
 #include "screencasts.h"
-/*  ID-used to keep screencasts separate  */
+//  ID-used to keep screencasts separate  
 int screencastID = 0;
 
-/*  WINDOW  */
+//  WINDOW  
 char *windowName = "OpenGL screenscasts XX: Placeholder";
 int windowHeight = DEF_WINDOW_HEIGHT;
 int windowWidth = DEF_WINDOW_WIDTH;
 int windowPosHeight = DEF_WINDOW_POS_H;
 int windowPosWidth = DEF_WINDOW_POS_W;
 
-/*  PROJECTION  */
+//  PROJECTION  
 double asp = DEF_ASP;
 double dim = DEF_DIM;
 int th = DEF_TH;
@@ -19,8 +19,8 @@ double ecX = DEF_ECX;
 double ecY = DEF_ECY;
 double ecZ = DEF_ECZ;
 
-/*  COLORS  */
-float white[]={1,1,1,1};
+//  COLORS  
+float white[] = { 1, 1, 1, 1};
 
-/*  TEXTURES  */
+//  TEXTURES  
 int skybox[6];
