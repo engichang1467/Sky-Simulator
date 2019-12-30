@@ -1,4 +1,6 @@
 # Sky Simulator
+*"The sky's the limit"*
+
 - Develop a Sky simulator that allows user to experience what is it like to be in the sky
 - Like VR environment, it allows user to look around the sky without moving
 
