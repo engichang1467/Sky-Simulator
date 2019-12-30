@@ -6,7 +6,17 @@
 - I built it with C++ and OpenGL
 
 ## Check it out
-![](res/SkySimulator.gif)
+Make the files
+```bash
+$ make
+```
 
-- use the arrow keys (up, down, left and right) to move around the environment, and esc key to escape
-- use up key to look down, and down key to move up
+Get the output
+```bash
+$ ./sky
+```
+
+- Use the arrow keys (up, down, left and right) to move around the environment, and esc key to escape
+- Use up key to look down, and down key to move up
+
+![](res/SkySimulator.gif)
